@@ -1,0 +1,24 @@
+Vim 优点：跨平台的文本编辑器--环境及操作稳定统一
+          可扩展性、可编程--不断打磨配置文件、尝试新的Plugins、学习VIMScript满足定制化需求
+	                  --通过插件扩展、实现如语法高亮、代码补全、符号解析。集成调试等
+          高效/专注--迅速启动，对于轻量级的编辑/修改任务方便
+	           --脱离鼠标，实现快速文本定位/粘贴/查找/替换；自动化任务
+          *nix下很多指令默认使用vi作为数据编辑的接口
+	           --如git，crontab，visudo
+		   --通过管道机制和系统内各种积木工具打交道
+Vim 缺点：较高的学习成本（陡峭的学习曲线）
+          容易失焦（VIM是工具而非问题终点，对VIM的打造要服务于现实需求）
+---------------------------------------
+基本计算器 |Ctrl+r "=2+2 ENTER
+:set hlsearch
+:set nohlsearch    你懂是干什么用的
+:ab [缩写] [要替换的文字]
+ggvGg?
+Vim 自动补全功能 compiler compiler jingle jingle jinhjk jingle jingle
+jingle jinglej jinhjk  Ctrl+n 
+:vsp [文件2]
+:earlier [1m/1h]----按时间回退文件
+:later [1m/1h]----进行相反的转换
+/linux  n 
+:set ignorecase	
+:set smartcase
